@@ -1,6 +1,6 @@
 {
-  "name": "@benkeil/typescript-usecase",
-  "version": "0.0.1",
+  "name": "@benkeil/typescript-commons-lang",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
