@@ -1,4 +1,4 @@
-import { RecursivePartial } from '../../src/types/utility';
+import { RecursivePartial } from './utility';
 
 describe('types', () => {
   describe('utility', () => {

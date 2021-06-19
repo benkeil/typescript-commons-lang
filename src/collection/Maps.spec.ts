@@ -1,4 +1,4 @@
-import Maps from '../../src/collection/Maps';
+import Maps from './Maps';
 
 describe('Maps', () => {
   test('of', () => {
