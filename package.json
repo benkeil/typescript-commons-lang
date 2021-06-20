@@ -3,9 +3,9 @@
   "version": "0.0.3",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
     "clean": "rm -rf dist",
-    "prebuild": "yarn run clean",
+    "test": "jest",
+    "prebuild": "yarn run clean && yarn run test",
     "build": "tsc",
     "prepublishOnly": "yarn run build",
     "postpublish": "git push --tags"
